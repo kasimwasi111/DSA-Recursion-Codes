@@ -8,8 +8,7 @@ public class NumSum {
             return;
         }
         sum+=i;
-        printSum(i+1, n, sum);
-        
+        printSum(i+1, n, sum);   
     }
     public static void main(String[] args) {
         printSum(1, 10, 0);
